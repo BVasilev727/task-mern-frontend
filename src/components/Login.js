@@ -1,5 +1,4 @@
 import React from "react";
-import { FaSignInAlt } from "react-icons/fa";
 import { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { useEffect } from "react";

@@ -37,7 +37,7 @@ const Register = () =>
     const onSubmit = e =>
     {
         e.preventDefault()
-        if(password!=password2)
+        if(password!==password2)
         {
             toast.error('passwords are different')
         }

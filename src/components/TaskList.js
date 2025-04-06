@@ -18,7 +18,7 @@ const TaskList = () =>
             navigate('/')
         }dispatch(getTasks())
         return () => dispatch(reset())
-    }, [navigate, isError, dispatch]
+    }, [navigate, isError, dispatch,message]
     )
     return (
         isLoading ? <Spinner /> : (

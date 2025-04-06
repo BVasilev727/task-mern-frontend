@@ -10,6 +10,7 @@ const createTask = async(taskData, token) =>
         }
     }
     const response = await axios.post(API_URL, taskData, config)
+    return response.data
 }
 const getTasks = async token =>
 {
