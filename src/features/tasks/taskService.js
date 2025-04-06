@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'api/tasks/'
+const API_URL = 'https://tasksmern-f9e91wro.b4a.run/api/tasks/'
 
 const createTask = async(taskData, token) =>
 {

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = '/api/users/'
+const API_URL = 'https://tasksmern-f9e91wro.b4a.run/api/users/'
 
 const register = async (userData) =>
 {
